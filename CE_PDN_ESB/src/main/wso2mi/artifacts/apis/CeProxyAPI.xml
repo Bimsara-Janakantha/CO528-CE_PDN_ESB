@@ -8,36 +8,72 @@
     </resource>
     <resource methods="GET" uri-template="/students">
         <inSequence>
+            <log category="INFO" logMessageID="true" logFullPayload="true">
+                <message></message>
+            </log>
+            <call description="Get the data from StudentEndpoint">
+                <endpoint key="StudentsEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
     </resource>
     <resource methods="GET" uri-template="/projects">
         <inSequence>
+            <log category="INFO" logMessageID="true" logFullPayload="true">
+                <message></message>
+            </log>
+            <call description="Access to the Projects data">
+                <endpoint key="ProjectsEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
     </resource>
     <resource methods="GET" uri-template="/staff">
         <inSequence>
+            <log category="INFO" logMessageID="true" logFullPayload="true">
+                <message></message>
+            </log>
+            <call>
+                <endpoint key="StaffEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
     </resource>
     <resource methods="GET" uri-template="/publications">
         <inSequence>
+            <log category="INFO" logMessageID="true" logFullPayload="true">
+                <message></message>
+            </log>
+            <call>
+                <endpoint key="PublicationEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
     </resource>
     <resource methods="GET" uri-template="/events">
         <inSequence>
+            <log category="INFO" logMessageID="true" logFullPayload="true">
+                <message></message>
+            </log>
+            <call>
+                <endpoint key="EventsEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
     </resource>
     <resource methods="GET" uri-template="/news">
         <inSequence>
+            <log category="INFO" logMessageID="true" logFullPayload="true">
+                <message></message>
+            </log>
+            <call>
+                <endpoint key="NewsEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
