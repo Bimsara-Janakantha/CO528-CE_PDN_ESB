@@ -21,6 +21,30 @@
       <file>ce-students-mapper_outputSchema.json</file>
       <path>/_system/governance/mi-resources/datamapper/ce-students-mapper</path>
       <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="resources_datamapper_student-datamapper_student-datamapper_dmc" groupId="com.microintegrator.projects" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+    <item>
+      <file>student-datamapper.dmc</file>
+      <path>/_system/governance/mi-resources/datamapper/student-datamapper</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="resources_datamapper_student-datamapper_student-datamapper_inputSchema_json" groupId="com.microintegrator.projects" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+    <item>
+      <file>student-datamapper_inputSchema.json</file>
+      <path>/_system/governance/mi-resources/datamapper/student-datamapper</path>
+      <mediaType>text/plain</mediaType>
+      <properties></properties>
+    </item>
+  </artifact>
+  <artifact name="resources_datamapper_student-datamapper_student-datamapper_outputSchema_json" groupId="com.microintegrator.projects" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+    <item>
+      <file>student-datamapper_outputSchema.json</file>
+      <path>/_system/governance/mi-resources/datamapper/student-datamapper</path>
+      <mediaType>text/plain</mediaType>
       <properties/>
     </item>
   </artifact>
