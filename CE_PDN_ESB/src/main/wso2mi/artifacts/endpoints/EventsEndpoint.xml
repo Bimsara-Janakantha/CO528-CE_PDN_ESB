@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="EventsEndpoint" xmlns="http://ws.apache.org/ns/synapse">
+    <http method="get"   uri-template="https://portal.ce.pdn.ac.lk/api/events/v1/?event_type=Event">
+        <suspendOnFailure>
+            <initialDuration>-1</initialDuration>
+            <progressionFactor>1</progressionFactor>
+        </suspendOnFailure>
+        <markForSuspension>
+            <retriesBeforeSuspension>0</retriesBeforeSuspension>
+        </markForSuspension>
+    </http>
+</endpoint>
